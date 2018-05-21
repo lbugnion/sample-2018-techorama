@@ -1,0 +1,39 @@
+﻿<Page x:Class="SharedFiles.MainPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+      mc:Ignorable="d"
+      DataContext="{Binding Source={StaticResource MainVm}}">
+    
+    <Page.BottomAppBar>
+        <CommandBar>
+            <CommandBar.Content>
+                <Grid />
+            </CommandBar.Content>
+            
+            <AppBarButton Icon="Accept"
+                          Label="Execute"
+                          Command="{Binding ExecuteCommand}"/>
+        </CommandBar>
+    </Page.BottomAppBar>
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+        <StackPanel VerticalAlignment="Center"
+                    HorizontalAlignment="Stretch"
+                    Margin="10">
+
+            <TextBox Text="{Binding Name, Mode=TwoWay}"
+                     FontSize="36" />
+
+            <TextBlock Text="{Binding Result}"
+                       HorizontalAlignment="Center"
+                       TextWrapping="WrapWholeWords"
+                       Margin="0,20,0,0"
+                       FontSize="36" />
+
+        </StackPanel>
+
+    </Grid>
+</Page>
