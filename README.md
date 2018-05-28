@@ -6,7 +6,7 @@ My code samples for the Techorama 2018 conference in Antwerp, Belgium
 
 You can see the details and the slides here:
 
-http://www.galasoft.ch/presentations/TODO
+http://galasoft.ch/presentations/2018019
 
 # Content
 
