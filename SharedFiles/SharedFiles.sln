@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27130.2027
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharedFiles", "SharedFiles\SharedFiles.csproj", "{717151FD-9447-4A2C-B058-3CB017CD0752}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharedFilesUwp", "SharedFilesUwp\SharedFilesUwp.csproj", "{717151FD-9447-4A2C-B058-3CB017CD0752}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharedFilesWpf", "SharedFilesWpf\SharedFilesWpf.csproj", "{90A8D27C-C6AF-474C-9A21-FAF1D51BDD11}"
 EndProject

@@ -6,7 +6,7 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{90A8D27C-C6AF-474C-9A21-FAF1D51BDD11}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>SharedFilesWpf</RootNamespace>
+    <RootNamespace>SharedFiles</RootNamespace>
     <AssemblyName>SharedFilesWpf</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
@@ -73,7 +73,7 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Compile Include="..\SharedFiles\ViewModel\MainViewModel.cs">
+    <Compile Include="..\SharedFilesUwp\ViewModel\MainViewModel.cs">
       <Link>ViewModel\MainViewModel.cs</Link>
     </Compile>
     <Compile Include="App.xaml.cs">
